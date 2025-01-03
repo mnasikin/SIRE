@@ -1,0 +1,10 @@
+@media (max-width: 600px) {
+    .gl-masonry {
+        column-count: 1;
+        column-gap: 15px;
+        display: block;
+    }
+    .container {
+        min-height: 75vh;
+    }
+}

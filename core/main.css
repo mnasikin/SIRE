@@ -1,0 +1,204 @@
+body {
+	font-family: Ubuntu;
+	background: #DFF2EB;
+	max-width: 800px;
+	min-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border:2px solid #7AB2D3;
+	border-radius: 14px;
+	font-weight: light;
+}
+/*Navigation*/
+nav {
+	display: flex;
+	flex-wrap: wrap;
+   background-color: #4A628A;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+   color: #DFF2EB;
+   align: center;
+   border-radius: 14px 14px 0 0;
+   z-index: 99;
+}
+nav ul {
+  padding-inline: 4rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+nav li {
+  list-style-type: none;
+}
+
+
+/*menu*/
+.menu {
+	overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #0F1035;
+  display: flex;
+  justify-content: center;
+}
+.menu button {
+	background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: #DCF2F1;
+}
+.menu button:hover {
+	background-color: inherit;
+}
+.menu button:active {
+	background-color: inherit;
+}
+.menu button.active {
+	background-color: #365486;
+	border-radius: 10px;
+}
+.content {
+	display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+#about {display: block;}
+
+/*container*/
+.container {
+	background: #B9E5E8;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0;
+	min-height: 85vh;
+}
+.container .profile {
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	padding: 1.5rem;
+	object-fit: cover;
+}
+
+/*Social*/
+.container .social {
+	display: flex;
+	justify-content: center;
+	gap: .5rem;
+	font-size: 20px;	
+}
+.container .social a {
+	color: #0F1035;	
+	background: #365486;
+	border-radius: 7px;
+	padding: 5px;
+}
+.container .social .fb:hover {
+	color: #fff;
+	background-color: #1877f2;
+}
+.container .social .ig:hover {
+	color: #fff;
+	background-color: #c32aa3;
+}
+.container .social .ldn:hover {
+	color: #fff;
+	background-color: #0a66c2;
+}
+.container .social .gh:hover {
+	color: #fff;
+	background-color: #24292e;
+}
+.container .social .web:hover {
+	color: #fff;
+	background-color: #000;
+}
+/*Description*/
+.container .description {
+	padding: 1rem;
+	text-align: center;	
+	margin-bottom: 3px;
+}
+.container .description .name {
+	font-weight: bold;
+}
+/*Experiences*/
+.container .exp-title {
+ display: block;
+}
+.container .exp-title:after {
+  content:" ";
+  display: block;
+  height: 2px;
+  width: 40px;
+  top: 50%;
+  left: 0;
+  background: #0F1035;
+}
+.container .exp-card {
+	box-shadow: 0 2px 4px 0 #365486;
+  transition: 0.3s;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  column-gap: .5rem;
+  row-gap: 5px;
+  flex-grow: 1;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+.container .exp-card:hover {
+	box-shadow: 0 0 0 0 #365486;
+	border-top: 1px solid #365486;
+	border-bottom: 1px solid #365486 ;
+	border-radius: 20px;
+}
+.container .exp-card .break {
+  flex-basis: 100%;
+  height: 0;
+}
+.container .exp-card .exp-years {
+	display: inline-flex;
+	background-color: #365486;
+	color: #DCF2F1;
+	padding: 5px;
+	border-radius: 5px;
+}
+.container .exp-card .exp-co, .container .exp-card .exp-job {
+	font-weight: 300;
+}
+.container .exp-card .exp-job {
+	align-content: right;
+	right: 0;
+}
+
+.container .thanks {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.thanks::before, .thanks::after {
+	content: ' ';
+	flex: 1;
+	border-bottom: 2px solid #0F1035;
+	margin: 0 10px;
+}
+
+footer {
+	background: #B9E5E8;
+	text-align: center;	
+	font-weight: 100;
+	font-style: italic;
+	font-size: 12px;
+	border-radius: 0 0 10px 10px;
+}
