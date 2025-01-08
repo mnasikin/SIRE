@@ -89,7 +89,9 @@
     border-radius: 10px;
     background: #365486;
     color: #DCF2F1;
+    text-decoration: none;
 }
 .btn.info:visited {
     color: #7FC7D9;
+    text-decoration: none;
 }

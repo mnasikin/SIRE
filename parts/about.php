@@ -1,4 +1,4 @@
- 	<img src="img/profile.webp" class="profile">
+ 	<img src="img/profile.webp" class="profile" alt="Muhammad Khoirun Nasikin">
  	<div class="social">
  		<a href="https://facebook.com" class="fb"><i class="fa-brands fa-facebook"></i></a>
  		<a href="https://instagram.com" class="ig"><i class="fa-brands fa-instagram"></i></a>
