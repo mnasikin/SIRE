@@ -7,4 +7,24 @@
     .container {
         min-height: 75vh;
     }
+    .container .social .fb {
+    color: #fff;
+    background-color: #1877f2;
+    }
+    .container .social .ig {
+        color: #fff;
+        background-color: #c32aa3;
+    }
+    .container .social .ldn {
+        color: #fff;
+        background-color: #0a66c2;
+    }
+    .container .social .gh {
+        color: #fff;
+        background-color: #24292e;
+    }
+    .container .social .web {
+        color: #fff;
+        background-color: #000;
+    }
 }
